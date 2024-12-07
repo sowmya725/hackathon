@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* General styling for dark theme */
+body {
+    background-color: #2E5266; /* Dark Sapphire */
+    color: #D3D0CB; /* Light silver text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #6E8898; /* Light Slate Gray */
+    padding: 10px;
+    text-align: center;
+    color: #D3D0CB;
+    font-size: 18px;
+}
+
+/* Form Styling */
+form {
+    background-color: #2E5266;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 20px auto;
+    color: #D3D0CB;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #D3D0CB;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form input[type="file"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #6E8898;
+    background-color: #9FB1BC;
+    color: #2E5266;
+}
+
+button, input[type="submit"] {
+    background-color: #6200EE; /* Dark Purple */
+    color: #D3D0CB;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #3700B3; /* Darker Purple */
+}
+
+.error-message, .success-message {
+    color: #03DAC6;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #D3D0CB;
+    text-align: left;
+    background-color: #2E5266;
+}
+
+.table th {
+    background-color: #3700B3;
+    color: #D3D0CB;
+}
